@@ -44,3 +44,16 @@ An algorithm can be defined as a finite set of steps, which has to be followed w
          - Count <- Count + 1
     3. absent <- total - Count
     4. Print "Number absent is:" , absent
+# Programs 
+- This repository contains following programs in c language: 
+  1. write a c program to implement Selection problem
+  2. write a c program to implement knapsack problem
+  3. write a c program to implement 01 knapsack problem
+  4. write a c program to implement matrix chain multiplication
+  5. write a c program to implement job sequencing problem
+  6. write a c program to implement Huffman coding
+  7. write a c program to implement Dijkstra Algorithm
+  8. write a c program to implement Binary first search (BFS)
+  9. write a c program to implement Depth first search (DFS)
+  10. write a c program to implement prim's algorithm to implement Minimum Cost Spanning Tree.
+  
