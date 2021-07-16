@@ -135,7 +135,13 @@ struct MinHNode *buildHuffmanTree(char item[], int freq[], int size) {
   }
   return extractMin(minHeap);
 }
+void printArray(int arr[], int n) {
+  int i;
+  for (i = 0; i < n; ++i)
+    printf("%d", arr[i]);
 
+  printf("\n");
+}
 void printHCodes(struct MinHNode *root, int arr[], int top) {
   if (root->left) {
     arr[top] = 0;
@@ -161,13 +167,7 @@ void HuffmanCodes(char item[], int freq[], int size) {
 }
 
 // Print the array
-void printArray(int arr[], int n) {
-  int i;
-  for (i = 0; i < n; ++i)
-    printf("%d", arr[i]);
 
-  printf("\n");
-}
 
 int main() {
   char arr[] = {'A', 'B', 'C', 'D'};

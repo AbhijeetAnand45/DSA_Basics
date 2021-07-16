@@ -1,0 +1,25 @@
+{
+    // "env": {
+    //     "myDefaultIncludePath": ["${workspaceFolder}", "${workspaceFolder}/include"],
+    //     "myCompilerPath": "C:/MinGW"
+    //   },
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\MinGW\\lib\\gcc\\mingw32"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            // "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

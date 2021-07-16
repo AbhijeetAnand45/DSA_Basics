@@ -57,3 +57,41 @@ An algorithm can be defined as a finite set of steps, which has to be followed w
   9. write a c program to implement Depth first search (DFS)
   10. write a c program to implement prim's algorithm to implement Minimum Cost Spanning Tree.
   
+
+
+
+    - First Approach : C++ using STL next_permuation which will give a new permutation each till a repeation occurs.
+
+    ```
+        vector<vector<int>> ans;
+        sort(nums.begin(),nums.end());
+        do{
+            ans.push_back(nums);
+        }while(next_permutation(nums.begin(),nums.end()));
+        
+        return ans;
+	```
+	
+	- Second Approach : Backtracking recursive Method
+	
+	```
+	vector<vector<int>> ans;
+    void permutations(vector<int>& nums, int idx, int n){
+         if(idx == n){
+            ans.push_back(nums);
+            return;
+        }
+        for(int i=idx;i<=n;i++){
+            swap(nums[i],nums[idx]);
+            permutations(nums,idx+1,n);
+            swap(nums[i],nums[idx]);
+        }
+        return;
+    }
+    vector<vector<int>> permute(vector<int>& nums) {
+       permutations(nums,0,nums.size()-1);
+        return ans;
+	}
+	```
+	
+	**Upvote and comment if any doubt !!**
