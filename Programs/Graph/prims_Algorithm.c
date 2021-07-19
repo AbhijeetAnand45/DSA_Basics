@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 // REPRESENTS No. OF VERTEX IN THE GRAPH.
-int V; // GLOBAL VARIABLE
+#define V 5 // GLOBAL VARIABLE
 
 /* A FUNCTION TO FIND MINIMUM KEY VALUE FROM SET OF VERTICES WHICH IS NOT YET INCLUDED IN MST. */
 int minKey(int key[], bool mstSet[])
@@ -68,8 +68,8 @@ void primMST(int graph[V][V])
 int main()
 {
 	int i,j;
-	printf("Please enter the Number of vertex in the Graph: ");
-	scanf("%d",&V);
+	// printf("Please enter the Number of vertex in the Graph: ");
+	// scanf("%d",&V);
 	int graph[V][V];
 	printf("Please Enter the cost of edge of graph row wise, Each row contains %d values: \n",V);
 	for(i=0;i<V;i++)
