@@ -3,12 +3,37 @@
 
 ### This repository contains following Algorithms Implementation.
 
+**Searching**
+  1. [Linear Search](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Seaching/linearSearch.cpp)
+  2. [Binary Search](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Seaching/BinarySearch.cpp)
+
+
 **Sorting Algorithm**
   1. [Bubble Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/BubbleSort.cpp)
   2. [Selection Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/SelectionSort.cpp)
   3. [Insertion Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/InsertionSort.cpp)
   4. [Quick Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/QuickSort.cpp)
   5. [Merge Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/MergeSort.cpp)
+
+
+**Linked List**
+  1. [Implementation in c++](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/LinkedList/LL.cpp)
+  2. [Various Problems in linked list](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/LinkedList)
+
+
+**Queue**
+  1. [Implementation Using LinkedList and Array](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Queue)
+
+
+**Stack**
+  1. [Implementation using Array and linked list](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Stack)
+
+
+**Tree**
+  1. [Binary Search Tree Implementation](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Tree/BST.c)
+  2. [Binary Tree Basic Implementation](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Tree/BinaryTreeImplement.cpp)
+  3. [Level Order Traversal](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Tree/LevelOrder.cpp)
+  4. [Catalan Number](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Tree/CatalanNumber.cpp)
 
 
 **Greedy Algorithm**
@@ -18,7 +43,7 @@
   4. [Huffman coding](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/huffman_coding.c)
 
 
-**DP**
+**Dynamic Programming**
   1. [fibonacci](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/fibonacci.cpp)
   2. [01 knapsack problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/knapsack_01.c)
   3. [matrix chain multiplication](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/matrix_chainmultiplication.c)
