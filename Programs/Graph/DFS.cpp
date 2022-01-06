@@ -1,4 +1,4 @@
-/* By ABHIJEET ANAND */
+/* Implementation of Depth Search Algorithm using Adjacency List */
 
 #include<bits/stdc++.h>
 using namespace std;
