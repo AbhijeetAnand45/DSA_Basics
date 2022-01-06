@@ -17,6 +17,7 @@
   3. [job sequencing problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/job_sequecing.c)
   4. [Huffman coding](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/huffman_coding.c)
 
+
 **DP**
   1. [fibonacci](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/fibonacci.cpp)
   2. [01 knapsack problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/knapsack_01.c)
@@ -24,13 +25,18 @@
   
 
 **Graph Algorithms**
-  1. [Dijkstra Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Dijkstra.c)
+  1. [Adjacency List Representation](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/GraphRepAdjList.cpp)
   2. [Breadth first search (BFS)](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/BFS.cpp)
   3. [Depth first search (DFS)](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/DFS.cpp)
-  4. [Prim's Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Prims.cpp) to implement Minimum Cost Spanning Tree.
-  5. [Kruskal's Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Kruskals.cpp)
-  6. [Topological Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/topological_sort.cpp)
-
+  4. [Topological Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/topological_sort.cpp)
+  5. [Bipartite Graph](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/BipartiteGraph.cpp)
+  6. [cycle Detection Undirected Graph](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/cycleDetection_UndirectedGraph.cpp)
+  7. [cycle Detection Directed Graph](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/cycleDetectIn_DirectedGraph.cpp)
+  8. [Kruskal's Algorithm to implement Minimum Cost Spanning Tree](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Kruskals.cpp)
+  9. [Prim's Algorithm to implement Minimum Cost Spanning Tree](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Prims.cpp)
+  10. [Dijkstra Algorithm to find shortest path from source to other vertex](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Dijkstra.c)
+  11. [Bellman Ford Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/BellmanFordAlgorithm.cpp)
+  12. [Floyd Warshall Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/FloydWarshall.cpp)
 
 
 ## Theory

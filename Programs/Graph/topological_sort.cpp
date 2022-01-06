@@ -1,3 +1,5 @@
+/* It is not unique and only DAG has topological sorting */
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
