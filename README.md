@@ -1,6 +1,40 @@
-## Algorithm
 
-An algorithm can be defined as a finite set of steps, which has to be followed while carrying out a particular problem. It is nothing but a process of executing actions step by step.
+## Repo Contains 
+
+### This repository contains following Algorithms Implementation.
+
+**Sorting Algorithm**
+  1. [Bubble Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/BubbleSort.cpp)
+  2. [Selection Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/SelectionSort.cpp)
+  3. [Insertion Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/InsertionSort.cpp)
+  4. [Quick Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/QuickSort.cpp)
+  5. [Merge Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/MergeSort.cpp)
+
+
+**Greedy Algorithm**
+  1. [Activity Selection problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/ActivitySelection.cpp)
+  2. [fractional knapsack problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/knapsack.cpp)
+  3. [job sequencing problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/job_sequecing.c)
+  4. [Huffman coding](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/huffman_coding.c)
+
+**DP**
+  1. [fibonacci](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/fibonacci.cpp)
+  2. [01 knapsack problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/knapsack_01.c)
+  3. [matrix chain multiplication](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/matrix_chainmultiplication.c)
+  
+
+**Graph Algorithms**
+  1. [Dijkstra Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Dijkstra.c)
+  2. [Breadth first search (BFS)](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/BFS.cpp)
+  3. [Depth first search (DFS)](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/DFS.cpp)
+  4. [Prim's Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Prims.cpp) to implement Minimum Cost Spanning Tree.
+  5. [Kruskal's Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Kruskals.cpp)
+  6. [Topological Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/topological_sort.cpp)
+
+
+
+## Theory
+  > An algorithm can be defined as a finite set of steps, which has to be followed while carrying out a particular problem. It is nothing but a process of executing actions step by step.
 
 ### Advantages of an Algorithm
 
@@ -46,29 +80,6 @@ An algorithm can be defined as a finite set of steps, which has to be followed w
          - Count <- Count + 1
     3. absent <- total - Count
     4. Print "Number absent is:" , absent
-
-
-### Repo Contains 
-
-#### This repository contains following Problems Implementation.
-
-**Greedy Algorithm**
-  1. [Selection problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/ActivitySelection.cpp)
-  2. [fractional knapsack problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/knapsack.cpp)
-  3. [job sequencing problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/job_sequecing.c)
-  4. [Huffman coding](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/huffman_coding.c)
-
-**DP**
-  1. [fibonacci](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/fibonacci.cpp)
-  2. [01 knapsack problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/knapsack_01.c)
-  3. [matrix chain multiplication](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/matrix_chainmultiplication.c)
-  
-
-**Graph Algorithms**
-  1. [Dijkstra Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Dijkstra.c)
-  2. [Breadth first search (BFS)](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/BFS.cpp)
-  3. [Depth first search (DFS)](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/DFS.cpp)
-  4. [Prim's Algorithm](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Graph/Prims.cpp) to implement Minimum Cost Spanning Tree.
   
 
 
