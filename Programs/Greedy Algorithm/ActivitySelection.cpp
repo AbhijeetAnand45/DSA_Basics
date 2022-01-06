@@ -4,6 +4,9 @@ struct Activity
 {
     int start;
     int finish;
+
+    // adding
+    // int number;
 };
 
 // Sorting by their finish time
@@ -18,10 +21,17 @@ int main()
     for(int i=0;i<n;i++){
         int x,y;
         cin>>x>>y;
+
+        //adding i+1
         time.push_back({x,y});
     }
     sort(time.begin(),time.end(), compare);
     int ans=1;
+
+    // adding
+    // cout<<time[0].number<<" ";
+
+
     int prevEndTime = time[0].finish;
     cout<<"selected activities are : ";
     cout<<"("<<time[0].start<<","<<time[0].finish<<"),";
@@ -29,6 +39,11 @@ int main()
         if(time[i].start > prevEndTime){
             ans++;
             cout<<"("<<time[i].start<<","<<time[i].finish<<") ";
+
+            //adding
+            // cout<<"\n"<<time[i].number<<"\n";
+
+
             prevEndTime = time[i].finish;
         }
         else{

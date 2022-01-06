@@ -14,17 +14,18 @@ int fibo(int n){
 const int N = 1e5+2;
 int dpe[N] = {-1};
 int fibonacci(int n){
-    if(n==0|| n==1){
+     if(n==0|| n==1){
         return 0;
-    }
-    if(n==2){
-        return 1;
-    }
-    if(dpe[n] != -1){
+        }
+        if(n<0){
+            return 0;
+        }
+        if(dpe[n] != -1){
+            return dpe[n];
+        }
+        dpe[n] = fibonacci(n-1) + fibonacci(n-2);
         return dpe[n];
-    }
-    dpe[n] = fibonacci(n-1) + fibonacci(n-2);
-    return dpe[n];
+   
 }
 
 // bottom - up (Tabulation Method) (Linear Time Complexity)
