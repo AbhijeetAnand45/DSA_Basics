@@ -1,9 +1,9 @@
 
 ## Repo Contains 
 
-### This repository contains following Algorithms Implementation.
+### This repository contains following Data Structure and Algorithms Implementation.
 
-**Searching**
+**Searching Algorithm**
   1. [Linear Search](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Seaching/linearSearch.cpp)
   2. [Binary Search](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Seaching/BinarySearch.cpp)
 
@@ -15,6 +15,8 @@
   4. [Quick Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/QuickSort.cpp)
   5. [Merge Sort](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/SortingAlgorithm/MergeSort.cpp)
 
+
+### Data Structure
 
 **Linked List**
   1. [Implementation in c++](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/LinkedList/LL.cpp)
@@ -35,6 +37,8 @@
   3. [Level Order Traversal](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Tree/LevelOrder.cpp)
   4. [Catalan Number](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Tree/CatalanNumber.cpp)
 
+
+### Algorithms
 
 **Greedy Algorithm**
   1. [Activity Selection problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/ActivitySelection.cpp)

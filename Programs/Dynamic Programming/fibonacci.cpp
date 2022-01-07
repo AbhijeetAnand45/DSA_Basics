@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// Exponential time complexity
+// Exponential time complexity // Recursive Approach
 int fibo(int n){
     if(n== 0 || n==1){
         return n;
