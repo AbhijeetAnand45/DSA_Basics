@@ -4,8 +4,8 @@
 ### This repository contains following Data Structure and Algorithms Implementation.
 
 **Searching Algorithm**
-  1. [Linear Search](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Seaching/linearSearch.cpp)
-  2. [Binary Search](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Seaching/BinarySearch.cpp)
+  1. [Linear Search](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Searching/linearSearch.cpp)
+  2. [Binary Search](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Searching/BinarySearch.cpp)
 
 
 **Sorting Algorithm**
@@ -48,9 +48,10 @@
 
 
 **Dynamic Programming**
-  1. [fibonacci](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/fibonacci.cpp)
-  2. [01 knapsack problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/knapsack_01.c)
-  3. [matrix chain multiplication](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic%20Programming/matrix_chainmultiplication.c)
+  1. [fibonacci](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic_Programming/fibonacci.cpp)
+  2. [01 knapsack problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic_Programming/knapsack_01.c)
+  3. [matrix chain multiplication](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic_Programming/matrix_chainmultiplication.c)
+  4. [coin change 1](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Dynamic_Programming/coinChange.cpp)
   
 
 **Graph Algorithms**

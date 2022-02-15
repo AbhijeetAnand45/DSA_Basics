@@ -7,12 +7,17 @@ vector<int> adj[N];
 bool visited[N];
 
 void dfs(int node){
-    //preorder
+    
     visited[node] = true;
     cout<<node<<" ";
 
+    for(auto it = adj[node].begin(); it != adj[node].end(); it++) {
+        if(!visited[*it]){
+            dfs(*it);
+        }
+    }
 
-    // inorder
+    /*
     vector<int> :: iterator it;
     for(it = adj[node].begin();it != adj[node].end();it++){
         if(visited[*it]);
@@ -20,6 +25,7 @@ void dfs(int node){
             dfs(*it);
         }
     }
+    */
 }
 int main(){
     ios_base::sync_with_stdio(false);

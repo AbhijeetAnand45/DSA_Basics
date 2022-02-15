@@ -1,0 +1,1 @@
+minimum no. of coin is 3

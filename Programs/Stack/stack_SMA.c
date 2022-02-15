@@ -2,13 +2,15 @@
 #include<stdio.h>
 #define CAPACITY 5
 int stack[CAPACITY];
-int top=-1;
-void push(int );
+int top = -1;
+void push(int);
 int pop();
 int isFull();
 int isEmpty();
 void peek();
 void traverse();
+
+
 void main()
 {
     while(1)
@@ -30,14 +32,14 @@ void main()
             push(ele);
             break;
         case 2:
-            item=pop();
-            if(item==-1)
+            item = pop();
+            if(item == -1)
             {
                 printf("stack is empty\n");
             }
             else
             {
-                printf("popped value is %d\n",item);
+                printf("popped value is %d\n", item);
             }
             break;
         case 3:
@@ -57,68 +59,51 @@ void main()
 }
 void push(int item)
 {
-    if(isFull())
-    {
+    if(isFull()) {
         printf("stack is full\n");
-    }
-    else
-    {
+    } else {
         top++;
         stack[top]=item;
-        printf("%d is inserted\n",item);
+        printf("%d is inserted\n", item);
     }
 }
-int isFull()
-{
-    if(stack[top]==CAPACITY-1)
-    {
-        return 1;
-    }
-    else
-        return 0;
+
+
+int isFull() {
+    return stack[top] == CAPACITY - 1;
 }
-int pop()
-{
+
+int pop() {
    int item;
-   if(isEmpty())
-   {
+   if(isEmpty()) {
        return -1;
-   }
-   else
-   {
+   } else {
        item=stack[top];
        top--;
        return(item);
    }
 }
-int isEmpty()
-{
-    if(top==-1)
-    {
-        return 1;
-    }
-    else
-    {
-        return 0;
+
+int isEmpty() {
+    return top == -1;
+}
+
+void peek() {
+    if(isEmpty()) {
+        printf("stack is empty");
+    } else {
+        printf("peak element is %d\n", stack[top]);
     }
 }
-void peek()
-{
-    if(isEmpty())
+void traverse() {
+    if(isEmpty()) {
         printf("stack is empty");
-    else
-    {
-        printf("peak element is %d\n",stack[top]);
-    }
-}
-void traverse()
-{
-    if(isEmpty())
-        printf("stack is empty");
-    else{
+    } else {
         int i;
         printf("stack elements are: \n");
-        for(i=0;i<=top;i++)
-            printf("%d \n",stack[i]);
+
+        for(i = 0; i <= top; i++) {
+            printf("%d \n", stack[i]);
+        }
     }
 }

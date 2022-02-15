@@ -1,5 +1,14 @@
 // Time Complexity worst case(reversed array): O(n^2)  
 // Auxiliary Space: O(1)
+
+/* 
+Algorithm 
+To sort an array of size n in ascending order: 
+1: Iterate from arr[1] to arr[n] over the array. 
+2: Compare the current element (key) to its predecessor. 
+3: If the key element is smaller than its predecessor, compare it to the elements before. 
+Move the greater elements one position up to make space for the swapped element.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -12,7 +21,7 @@ void insertionSort(int a[],int n){
     for(int i=1;i<n;i++){
         int temp = a[i];
         int j;
-        for(j=i-1;j>=0 and temp < a[j]; j--){
+        for(j = i-1; j >= 0 and a[j] > temp; j--){
             a[j+1] = a[j];
         }
         a[j+1] = temp;
@@ -31,8 +40,7 @@ void solve(){
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
-    insertionSort(a,n);
-    
+    insertionSort(a,n);  
 }
 
 int main(){
@@ -44,5 +52,4 @@ int main(){
         
     }
     return 0;
-
 }

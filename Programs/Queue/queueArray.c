@@ -20,7 +20,7 @@ struct Queue *createqueue(int capacity)
 }
 int isEmptyqueue(struct Queue *Q)
 {
-    return(Q->front==-1);
+    return(Q->front == -1);
 }
 // int isFullqueue(struct Queue *Q)
 // {
@@ -34,7 +34,7 @@ void enqueue(struct Queue *Q,int data)
     else{
         Q->rear=(Q->rear+1)%Q->capacity;
         Q->array[Q->rear]=data;
-        if(Q->front==-1)
+        if(Q->front == -1)
         {
             Q->front=Q->rear;
         }

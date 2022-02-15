@@ -81,7 +81,7 @@ void deletion(node* &head, int val)
 
 node* removeNthFromEnd(node* head, int n) {
        node* fast = head, *slow = head;
-        for(int i=1 ; i<=n;i++){
+        for(int i = 1; i <= n; i++){
             fast = fast->next;
         }
         if(fast == NULL){
@@ -139,9 +139,10 @@ bool searching(node *head,int key){
 
 }
 
-// code for sorting a linked list
-// 4->2->1->3
-// 1->2->3->4
+/* code for sorting a linked list
+   input : 4->2->1->3
+   output : 1->2->3->4
+*/
  node* sortList(node* head) {
         if(head == NULL){
             return NULL;
@@ -169,6 +170,61 @@ bool searching(node *head,int key){
         return newHead;
     }
 
+/*
+    Intersection of two linked list below
+    Input:
+        L1 = 1->2->3->4->6
+        L2 = 2->4->6->8
+    Output: 2 4 6
+
+*/
+
+node* intersection(node* temp1,node* temp2){
+   
+    node* dummyhead = new node(0);
+    node* head = dummyhead;
+
+
+    while(temp1 != NULL && temp2 != NULL){
+        if(temp1->data == temp2->data){
+            head->next = new node(temp1->data);
+            head = head->next;
+            temp1 = temp1->next;
+            temp2 = temp2->next;
+        }
+        else if(temp1->data < temp2->data)
+            temp1 = temp1->next;
+        else
+            temp2 = temp2->next;
+    }
+    return dummyhead->next;
+}
+
+/* Reverse linked list in k-size */  
+
+node* ReverseinKsize(node* head,int k){
+    if(head == NULL){
+        return NULL;
+    }
+    node* curr = head;
+    node* prev = NULL;
+    node* nextPtr = NULL;
+
+    int count = 0;
+
+    while(curr != NULL && count < k){
+        nextPtr = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = nextPtr;
+        count++;
+    }
+
+    if(nextPtr != NULL){
+        head->next = ReverseinKsize(nextPtr,k);
+    }
+    return prev;
+}
 // MAIN FUNCTION
 
 int main()
