@@ -1,6 +1,23 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long
+
+/*
+	problem statement :- you are given n items with {weight,value} of each item and capacity
+	of knapsack(container). we need to put these items in the knapsack such that final value
+	of items in the knapsack is maximum.
+
+	Algorithm :- 
+	1. calculate the value per weight.
+	2. sort in decreasing order according value per weight.
+	3. pick from starting till our knapsack has capacity to store.
+
+	ex :  sorted allready 
+		v = 40 24 30 21 12
+		w = 5  4  6  7  6
+	 v/w =  8  6  5  3  2
+*/
+
 struct items
 {
 	double value;
@@ -21,7 +38,9 @@ signed main(){
 	}
 	double capacityOfKnapsack;
 	cin>>capacityOfKnapsack;
+
 	sort(item.begin(),item.end(),compare);
+	
 	int ans = 0;
 	for(int i=0;i<n;i++){
 		if(capacityOfKnapsack >= item[i].weight){

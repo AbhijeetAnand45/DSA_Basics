@@ -1,5 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+/*
+
+    Problem : you are given n activities with their start and finish times.
+    we have to select the maximum no. of activities such that no two selected activites overlap.
+
+    Algorithm :- 
+    1. sort all activity by their finish times.
+    2. Greedly select the first activity and jump to the next.
+    3. if starting time of current activity is greater than end time of previously selected
+    activity then take it otherwise ignore it.
+*/
+
 struct Activity
 {
     int start;

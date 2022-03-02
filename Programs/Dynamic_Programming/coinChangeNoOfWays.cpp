@@ -6,26 +6,26 @@ using namespace std;
 
 class Solution {
 public:
-    // Problem link : https://leetcode.com/problems/coin-change/
+    // Problem link : https://leetcode.com/problems/coin-change-2/
     // Recursive Approach 
-   /*
+   
     int recursive(vector<int>& wt, int w, int n) {
         if (n == 0 || w == 0)
-            return (w == 0) ? 0 : INT_MAX - 1;
+            return (w == 0) ? 1 : 0;
         
 
         if (wt[n - 1] > w) 
-            return 0 + recursive(wt, w - 0, n - 1);
+            return  recursive(wt, w - 0, n - 1);
         else 
-            return min(0 + recursive(wt, w - 0, n - 1), 1 + recursive(wt, w - wt[n - 1], n));
+            return  recursive(wt, w - 0, n - 1) + recursive(wt, w - wt[n - 1], n));
     }
     
     int coinChange(vector<int>& coins, int amount) {
         
         int minCoins = recursive(coins, amount, coins.size());
-        return minCoins == INT_MAX - 1 ? -1 : minCoins;    
+        return minCoins;    
     }
-    */
+    
     
     
     
@@ -53,7 +53,7 @@ public:
 };
 
 int main(){
-    fast
+    fast 
     #ifndef ONLINE_JUDGE
         freopen("input.txt","r",stdin);
         freopen("output.txt","w",stdout);
