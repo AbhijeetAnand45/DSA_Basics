@@ -25,10 +25,12 @@
 
 **Queue**
   1. [Implementation Using LinkedList and Array](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Queue)
+  2. [Queue Using Stack]()
 
 
 **Stack**
   1. [Implementation using Array and linked list](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Stack)
+  2. [Stack Using Queue]()
 
 
 **Tree**
@@ -45,6 +47,10 @@
   2. [fractional knapsack problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/knapsack.cpp)
   3. [job sequencing problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/job_sequecing.c)
   4. [Huffman coding](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/Greedy%20Algorithm/huffman_coding.c)
+
+
+**Recursion and BackTracking**
+  1. [N-Queens Problem](https://github.com/AbhijeetAnand45/Algorithm/blob/master/Programs/BackTracking/N_Queens_Problem.cpp)
 
 
 **Dynamic Programming**
